@@ -1,7 +1,15 @@
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 ul, li {
   list-style: none;
+}
+
+.star {
+  margin-right: 5px;
+}
+.star:last-child {
+  margin-right: 0;
 }
